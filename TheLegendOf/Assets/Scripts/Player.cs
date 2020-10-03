@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] float movementSpeed = 0f;
+    [SerializeField] float movementSpeed = 5f;
 
     private Vector2 movement;
     private Rigidbody2D rigidbody2D;
@@ -22,8 +22,7 @@ public class Player : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
         Vector3 mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
-        Debug.Log(mouse);
+        
         if(mouse.x < transform.position.x)
         {
             spriteRender.flipX = true;
@@ -40,5 +39,5 @@ public class Player : MonoBehaviour
     void FixedUpdate()
     {
         rigidbody2D.MovePosition(rigidbody2D.position + movement * movementSpeed * Time.fixedDeltaTime);
-    }
+    }    
 }
