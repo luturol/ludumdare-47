@@ -13,9 +13,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - chao
+  - muros tras
+  - muros frente
   - 
   - 
   - 
@@ -40,4 +40,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: ground
+    uniqueID: 2318615911
+    locked: 0
+  - name: wallsDown
+    uniqueID: 2444411517
+    locked: 0
+  - name: player
+    uniqueID: 2414198893
+    locked: 0
+  - name: wallsUp
+    uniqueID: 2090554449
     locked: 0
