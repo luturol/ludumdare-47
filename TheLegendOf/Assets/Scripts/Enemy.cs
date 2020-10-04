@@ -1,5 +1,4 @@
-﻿using System.Threading;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,6 +7,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] Player player;
     [SerializeField] float movementSpeed = 0.1f;
     [SerializeField] float stoppingDistance = 2f;
+    [SerializeField] int life = 2;
 
     private Rigidbody2D rigidbody2D;
 
@@ -22,5 +22,15 @@ public class Enemy : MonoBehaviour
     {
         if (Vector2.Distance((Vector2)transform.position, player.transform.position) > stoppingDistance)
             transform.position = Vector2.MoveTowards(transform.position, player.transform.position, movementSpeed * Time.deltaTime);
+    }    
+
+    public void LoseLife(int attackDamage)
+    {
+        Debug.Log(life);
+        life -= attackDamage;
+        if(life <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }
