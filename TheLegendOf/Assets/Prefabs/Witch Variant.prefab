@@ -13,6 +13,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6871005769876319402, guid: 62d2ec381a7faf143a7f7250d21fdf9e,
         type: 3}
+    - target: {fileID: 4045060666846840130, guid: 7880c07104b67a748b1888362983cafd,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4045060666846840130, guid: 7880c07104b67a748b1888362983cafd,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4246174918717503263, guid: 7880c07104b67a748b1888362983cafd,
         type: 3}
       propertyPath: attackPrefab
@@ -22,7 +32,7 @@ PrefabInstance:
     - target: {fileID: 7939267186462772081, guid: 7880c07104b67a748b1888362983cafd,
         type: 3}
       propertyPath: m_Name
-      value: Witch
+      value: Witch Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7939267186462772086, guid: 7880c07104b67a748b1888362983cafd,
         type: 3}

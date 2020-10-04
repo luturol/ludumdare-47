@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] Player player;
-    [SerializeField] float movementSpeed = 0.1f;
-    [SerializeField] float stoppingDistance = 2f;
     [SerializeField] int life = 2;
 
     private Rigidbody2D rigidbody2D;
@@ -16,17 +13,9 @@ public class Enemy : MonoBehaviour
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (Vector2.Distance((Vector2)transform.position, player.transform.position) > stoppingDistance)
-            transform.position = Vector2.MoveTowards(transform.position, player.transform.position, movementSpeed * Time.deltaTime);
-    }    
-
+    
     public void LoseLife(int attackDamage)
     {
-        Debug.Log(life);
         life -= attackDamage;
         if(life <= 0)
         {

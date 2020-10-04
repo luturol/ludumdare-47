@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 5135465573222126017}
   - component: {fileID: 5135465573222126019}
   - component: {fileID: 5135465573222126028}
+  - component: {fileID: 7258909208502330898}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Enemy Gladiator
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -115,6 +116,22 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.65
+--- !u!114 &7258909208502330898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5135465573222126023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 000cc35d8a703ff4f9ccd862d06e57c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  movementSpeed: 0.1
+  stoppingDistance: 2
+  life: 2
 --- !u!1 &5929215727727864414
 GameObject:
   m_ObjectHideFlags: 0
@@ -126,7 +143,7 @@ GameObject:
   - component: {fileID: 6355242486758330310}
   - component: {fileID: 5773038047374823875}
   m_Layer: 0
-  m_Name: Enemy Gladiator
+  m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -140,7 +157,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5929215727727864414}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 200}
   m_LocalScale: {x: 3.8073, y: 3.8073, z: 3.8073}
   m_Children: []
   m_Father: {fileID: 5135465573222126016}
@@ -182,8 +199,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1880768403
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 1586942902692254360, guid: b23de6f370ef5d64ea8c698c32d5d8cd,
     type: 3}
