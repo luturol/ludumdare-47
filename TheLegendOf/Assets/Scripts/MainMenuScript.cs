@@ -10,6 +10,7 @@ public class MainMenuScript : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
+    // só funciona em .exe, no unity ele não fecha o 'run' do unity
     public void QuitGame()
     {
         Application.Quit();
