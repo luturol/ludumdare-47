@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1112670e4f359d84fa502a774e7170a1
+guid: bbe2eb2ebe5c6434fae0416c0dfa83ba
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,9 +8,9 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Gelio Retsina
+  fontName: Alfabetix
   fontNames:
-  - Gelio Retsina
+  - Alfabetix
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
