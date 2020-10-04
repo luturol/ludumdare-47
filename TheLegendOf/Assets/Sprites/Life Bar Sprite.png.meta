@@ -1,0 +1,467 @@
+fileFormatVersion: 2
+guid: 1c2c02d6890df464bad798f504230afa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4350793895874826456
+    second: Life Bar Sprite_0
+  - first:
+      213: 5205637512048975749
+    second: Life Bar Sprite_1
+  - first:
+      213: 4168586170837607830
+    second: Life Bar Sprite_2
+  - first:
+      213: -1522349064601171670
+    second: Life Bar Sprite_3
+  - first:
+      213: 6537720721973155437
+    second: Life Bar Sprite_4
+  - first:
+      213: -1034178672532797629
+    second: Life Bar Sprite_5
+  - first:
+      213: 5809803972420416258
+    second: Life Bar Sprite_6
+  - first:
+      213: 8605901047063349358
+    second: Life Bar Sprite_7
+  - first:
+      213: 378274570850028243
+    second: Life Bar Sprite_8
+  - first:
+      213: 326219990289759778
+    second: Life Bar Sprite_9
+  - first:
+      213: -9062101557264382051
+    second: Life Bar Sprite_10
+  - first:
+      213: 65021041399192694
+    second: Life Bar Sprite_11
+  - first:
+      213: -3602225628640964129
+    second: Life Bar Sprite_12
+  - first:
+      213: 6829593752557364243
+    second: Life Bar Sprite_13
+  - first:
+      213: -3382167510659310904
+    second: Life Bar Sprite_14
+  - first:
+      213: -3499695589637722311
+    second: Life Bar Sprite_15
+  - first:
+      213: -3217301825646163866
+    second: Life Bar Sprite_16
+  - first:
+      213: 5002150859986803531
+    second: Life Bar Sprite_17
+  - first:
+      213: 5194871354493451687
+    second: Life Bar Sprite_18
+  - first:
+      213: -8984604006674926126
+    second: Life Bar Sprite_19
+  - first:
+      213: -1434041640316117661
+    second: Life Bar Sprite_20
+  - first:
+      213: -2667580315870308267
+    second: Life Bar Sprite_21
+  - first:
+      213: -2552538512822758109
+    second: Life Bar Sprite_22
+  - first:
+      213: -13460377452466869
+    second: Life Bar Sprite_23
+  - first:
+      213: -7700523025578440585
+    second: Life Bar Sprite_24
+  - first:
+      213: 6124116616978464985
+    second: Life Bar Sprite_25
+  - first:
+      213: 8391872980885921954
+    second: Life Bar Sprite_26
+  - first:
+      213: -7519982816823498980
+    second: Life Bar Sprite_27
+  - first:
+      213: -498186160504295275
+    second: Life Bar Sprite_28
+  - first:
+      213: 8097212487887999146
+    second: Life Bar Sprite_29
+  - first:
+      213: 3735550244578554875
+    second: Life Bar Sprite_30
+  - first:
+      213: -7999594456827912620
+    second: Life Bar Sprite_31
+  - first:
+      213: 471555379265693177
+    second: Life Bar Sprite_32
+  - first:
+      213: -1659970499530655007
+    second: Life Bar Sprite_33
+  - first:
+      213: -6221227105807335030
+    second: Life Bar Sprite_34
+  - first:
+      213: 7740189823171778635
+    second: Life Bar Sprite_35
+  - first:
+      213: -3704632910374186926
+    second: Life Bar Sprite_36
+  - first:
+      213: 1428152181544181588
+    second: Life Bar Sprite_37
+  - first:
+      213: 1663565933858416588
+    second: Life Bar Sprite_38
+  - first:
+      213: -767691756418511699
+    second: Life Bar Sprite_39
+  - first:
+      213: -8343183802707764098
+    second: Life Bar Sprite_40
+  - first:
+      213: 6146103099524933377
+    second: Life Bar Sprite_41
+  - first:
+      213: -7100058076576623960
+    second: Life Bar Sprite_42
+  - first:
+      213: -996328980773244938
+    second: Life Bar Sprite_43
+  - first:
+      213: -8267210589645767895
+    second: Life Bar Sprite_44
+  - first:
+      213: -417923645384366832
+    second: Life Bar Sprite_45
+  - first:
+      213: 7472373982205604238
+    second: Life Bar Sprite_46
+  - first:
+      213: -6701980163753219523
+    second: Life Bar Sprite_47
+  - first:
+      213: -3633301836131932564
+    second: Life Bar Sprite_48
+  - first:
+      213: -7527845339053035991
+    second: Life Bar Sprite_49
+  - first:
+      213: 5942869434756949849
+    second: Life Bar Sprite_50
+  - first:
+      213: -6075213232454409371
+    second: Life Bar Sprite_51
+  - first:
+      213: -541615007171095497
+    second: Life Bar Sprite_52
+  - first:
+      213: -1286388145805011459
+    second: Life Bar Sprite_53
+  - first:
+      213: -7640791926661190743
+    second: Life Bar Sprite_54
+  - first:
+      213: -7109842588081673178
+    second: Life Bar Sprite_55
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 28
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Life Bar Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 28
+        height: 8
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f6171d000ee93c0800000000000000
+      internalID: -4350793895874826456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life Bar Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 28
+        height: 8
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f902f8cb32e3840800000000000000
+      internalID: 5205637512048975749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life Bar Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 28
+        height: 8
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695a168490bc9d930800000000000000
+      internalID: 4168586170837607830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life Bar Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 28
+        height: 8
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a298c4c67978fdae0800000000000000
+      internalID: -1522349064601171670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life Bar Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 28
+        height: 8
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d669be9bb56aaba50800000000000000
+      internalID: 6537720721973155437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life Bar Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 28
+        height: 8
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347c5650afbd5a1f0800000000000000
+      internalID: -1034178672532797629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Life Bar Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 28
+        height: 8
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203b5c66ee190a050800000000000000
+      internalID: 5809803972420416258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
