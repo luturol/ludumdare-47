@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
         spriteRenderer = body.GetComponent<SpriteRenderer>();
+        Camera.main.GetComponent<CameraFollow>().SetFollowPlayer();
     }
 
     void Update()
