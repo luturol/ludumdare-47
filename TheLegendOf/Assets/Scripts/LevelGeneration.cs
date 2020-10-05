@@ -20,7 +20,9 @@ public class LevelGeneration : MonoBehaviour
         {
             var EnemiesWithoutPlayer = enemies.Where(e => e.character != SceneLoader.currentCharacter).ToList();
             rand = Random.Range(0, EnemiesWithoutPlayer.Count);
-            InstantiateObject(EnemiesWithoutPlayer[rand].enemyPrefab);
+            var enemy = EnemiesWithoutPlayer[rand];
+            var prefab = Instantiate(enemy.enemyPrefab, transform.position, Quaternion.identity);
+            prefab.GetComponent<Enemy>().SetCharacter(enemy.character);
         }
 
     }

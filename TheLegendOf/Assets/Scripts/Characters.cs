@@ -6,9 +6,10 @@ using UnityEngine;
 [Serializable]
 public enum Characters
 {
-    Gladiator,
-    Archer,
-    Witcher
+    Gladiator = 0,
+    Witcher = 1,
+    Archer = 2,
+    
 }
 
 [Serializable]
@@ -17,4 +18,5 @@ public class CharacterDictionary
 {
     public Characters character;
     public Sprite sprite;
+    public GameObject prefab;
 }

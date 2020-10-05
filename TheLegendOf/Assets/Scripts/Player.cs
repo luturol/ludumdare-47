@@ -41,12 +41,15 @@ public class Player : MonoBehaviour
         rigidbody2D.MovePosition(rigidbody2D.position + movement * movementSpeed * Time.fixedDeltaTime);
     }
 
-    public void LoseLife(int attackDamage)
+    public void LoseLife(int attackDamage, Characters attackOwner)
     {
         life -= attackDamage;
         if (life <= 0)
         {
+            SceneLoader.currentCharacter = attackOwner;
+            Debug.Log(SceneLoader.currentCharacter);
             Destroy(gameObject);
+            FindObjectOfType<SceneLoader>().LoadStartScene();
         }
     }
 }

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5689475974206294961}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Attack Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 5689475974816156806}
   - component: {fileID: 5689475974816156805}
   - component: {fileID: 5689475974816156807}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Player Witcher
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -137,7 +137,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5689475975459372183}
   - component: {fileID: 5689475975459372176}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -219,7 +219,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5689475975570646277}
   - component: {fileID: 5689475975570646278}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -48,7 +48,7 @@ MonoBehaviour:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
       type: 3}
-  - character: 2
+  - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
 --- !u!1 &339359965239656007
@@ -99,7 +99,7 @@ MonoBehaviour:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
       type: 3}
-  - character: 2
+  - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
 --- !u!1 &441644721444912102
@@ -150,7 +150,7 @@ MonoBehaviour:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
       type: 3}
-  - character: 2
+  - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
 --- !u!1 &972831393842879762
@@ -201,7 +201,7 @@ MonoBehaviour:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
       type: 3}
-  - character: 2
+  - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
 --- !u!1 &2189610824733613045
@@ -252,7 +252,7 @@ MonoBehaviour:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
       type: 3}
-  - character: 2
+  - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
 --- !u!1 &3814077292821620276
@@ -303,7 +303,7 @@ MonoBehaviour:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
       type: 3}
-  - character: 2
+  - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
 --- !u!1 &5626060571367106077
@@ -354,7 +354,7 @@ MonoBehaviour:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
       type: 3}
-  - character: 2
+  - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
 --- !u!1 &6081518089466772292
@@ -405,7 +405,7 @@ MonoBehaviour:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
       type: 3}
-  - character: 2
+  - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
 --- !u!1 &8573013188657242760
@@ -456,7 +456,7 @@ MonoBehaviour:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
       type: 3}
-  - character: 2
+  - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
 --- !u!1 &8983127730695824300
@@ -507,7 +507,7 @@ MonoBehaviour:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
       type: 3}
-  - character: 2
+  - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
 --- !u!1001 &519187958747762938

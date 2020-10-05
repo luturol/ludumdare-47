@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7258909208502330898}
   m_Layer: 0
   m_Name: Enemy Gladiator
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -131,6 +131,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   life: 2
+  startTimeBetweenAttacks: 2
+  enemyAttack: {fileID: 1490749333592065332, guid: d07f992b65870e043a98d0e48c87ecaf,
+    type: 3}
 --- !u!1 &5929215727727864414
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,6 +12,7 @@ public class Projectile : MonoBehaviour
     // Start is called before the first frame update
 
     private string enemyTag = string.Empty;
+    private Characters attackOwner;
     private Transform player;
     private Vector2 target;
     private bool rotate = false;
@@ -57,13 +58,18 @@ public class Projectile : MonoBehaviour
         enemyTag = enemy;
     }
 
+    public void SetAttackOwner(Characters owner)
+    {
+        attackOwner = owner;
+    }
+
     /// <summary>
     /// Sent when another object enters a trigger collider attached to this
     /// object (2D physics only).
     /// </summary>
     /// <param name="other">The other Collider2D involved in this collision.</param>
     void OnTriggerEnter2D(Collider2D other)
-    {
+    {        
         if (other.gameObject.tag == enemyTag && enemyTag == "Enemy")
         {
             other.gameObject.GetComponent<Enemy>().LoseLife(attackDamage);
@@ -71,9 +77,8 @@ public class Projectile : MonoBehaviour
         }
         else if (other.gameObject.tag == enemyTag && enemyTag == "Player")
         {
-            other.gameObject.GetComponent<Player>().LoseLife(attackDamage);
+            other.gameObject.GetComponent<Player>().LoseLife(attackDamage, attackOwner);
             Destroy(gameObject);
         }
     }
-
 }

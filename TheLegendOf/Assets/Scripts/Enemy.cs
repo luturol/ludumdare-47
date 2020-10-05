@@ -10,6 +10,7 @@ public class Enemy : MonoBehaviour
     public Projectile enemyAttack;
 
     private float timeBetweenAttacks;
+    private Characters character;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +30,7 @@ public class Enemy : MonoBehaviour
             {                
                 var projectile = Instantiate(enemyAttack, transform.position, Quaternion.identity);                
                 projectile.SetEnemyTag("Player");
+                projectile.SetAttackOwner(character);
             }
 
             timeBetweenAttacks = startTimeBetweenAttacks;
@@ -46,5 +48,10 @@ public class Enemy : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    public void SetCharacter(Characters enemy)
+    {
+        character = enemy;
     }
 }

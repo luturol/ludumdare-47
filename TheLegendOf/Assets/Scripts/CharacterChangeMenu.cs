@@ -1,12 +1,15 @@
-﻿using System.Collections;
+﻿using System.Threading;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class CharacterChangeMenu : MonoBehaviour
 {
-    public CharacterDictionary[] characters;
-    [SerializeField] Image image;
+    public List<CharacterDictionary> characters;
+    [SerializeField] Image characterImage;
+    [SerializeField] Text characterText;
         
     /// <summary>
     /// Start is called on the frame when a script is enabled just before
@@ -14,6 +17,7 @@ public class CharacterChangeMenu : MonoBehaviour
     /// </summary>
     void Start()
     {        
-        image.sprite = characters[(int) SceneLoader.currentCharacter].sprite;
+        characterImage.sprite = characters.FirstOrDefault(e => e.character == SceneLoader.currentCharacter).sprite;
+        characterText.text = SceneLoader.currentCharacter.ToString();
     }
 }

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6973237794498314375}
   - component: {fileID: 6973237794498314374}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6973237794703404640}
   - component: {fileID: 6973237794703404643}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,7 +139,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6973237795250087056}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: AttackPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -172,7 +172,7 @@ GameObject:
   - component: {fileID: 6973237796438393854}
   - component: {fileID: 6973237796438393855}
   - component: {fileID: 6973237796438393852}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Player Archer
   m_TagString: Player
   m_Icon: {fileID: 0}
