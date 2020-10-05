@@ -43,9 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2358b9d2ab921144af236f52ae4e5ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070, type: 3}
-  - {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3, type: 3}
+  objects: []
   enemies:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
@@ -53,6 +51,8 @@ MonoBehaviour:
   - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
+  maxRangeOfTime: 7
+  minRangeOfTime: 0
 --- !u!1 &3299358692490285303
 GameObject:
   m_ObjectHideFlags: 0
@@ -96,9 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2358b9d2ab921144af236f52ae4e5ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070, type: 3}
-  - {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3, type: 3}
+  objects: []
   enemies:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
@@ -106,6 +104,8 @@ MonoBehaviour:
   - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
+  maxRangeOfTime: 7
+  minRangeOfTime: 0
 --- !u!1 &3299358692658920762
 GameObject:
   m_ObjectHideFlags: 0
@@ -149,9 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2358b9d2ab921144af236f52ae4e5ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070, type: 3}
-  - {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3, type: 3}
+  objects: []
   enemies:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
@@ -159,6 +157,8 @@ MonoBehaviour:
   - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
+  maxRangeOfTime: 7
+  minRangeOfTime: 0
 --- !u!1 &3299358692663046516
 GameObject:
   m_ObjectHideFlags: 0
@@ -202,9 +202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2358b9d2ab921144af236f52ae4e5ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070, type: 3}
-  - {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3, type: 3}
+  objects: []
   enemies:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
@@ -212,6 +210,8 @@ MonoBehaviour:
   - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
+  maxRangeOfTime: 7
+  minRangeOfTime: 0
 --- !u!1 &3299358692676469607
 GameObject:
   m_ObjectHideFlags: 0
@@ -255,9 +255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2358b9d2ab921144af236f52ae4e5ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070, type: 3}
-  - {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3, type: 3}
+  objects: []
   enemies:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
@@ -265,6 +263,8 @@ MonoBehaviour:
   - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
+  maxRangeOfTime: 7
+  minRangeOfTime: 0
 --- !u!1 &3299358692748353842
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,9 +308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2358b9d2ab921144af236f52ae4e5ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070, type: 3}
-  - {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3, type: 3}
+  objects: []
   enemies:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
@@ -318,6 +316,8 @@ MonoBehaviour:
   - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
+  maxRangeOfTime: 7
+  minRangeOfTime: 0
 --- !u!1 &3299358692812594856
 GameObject:
   m_ObjectHideFlags: 0
@@ -361,9 +361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2358b9d2ab921144af236f52ae4e5ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070, type: 3}
-  - {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3, type: 3}
+  objects: []
   enemies:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
@@ -371,6 +369,8 @@ MonoBehaviour:
   - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
+  maxRangeOfTime: 7
+  minRangeOfTime: 0
 --- !u!1 &3299358692874934043
 GameObject:
   m_ObjectHideFlags: 0
@@ -414,9 +414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2358b9d2ab921144af236f52ae4e5ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070, type: 3}
-  - {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3, type: 3}
+  objects: []
   enemies:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
@@ -424,6 +422,8 @@ MonoBehaviour:
   - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
+  maxRangeOfTime: 7
+  minRangeOfTime: 0
 --- !u!1 &3299358693022226616
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,9 +467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2358b9d2ab921144af236f52ae4e5ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070, type: 3}
-  - {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3, type: 3}
+  objects: []
   enemies:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
@@ -477,6 +475,8 @@ MonoBehaviour:
   - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
+  maxRangeOfTime: 7
+  minRangeOfTime: 0
 --- !u!1 &3299358693065659814
 GameObject:
   m_ObjectHideFlags: 0
@@ -520,9 +520,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2358b9d2ab921144af236f52ae4e5ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070, type: 3}
-  - {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3, type: 3}
+  objects: []
   enemies:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
@@ -530,6 +528,8 @@ MonoBehaviour:
   - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
+  maxRangeOfTime: 7
+  minRangeOfTime: 0
 --- !u!1 &3299358693285472903
 GameObject:
   m_ObjectHideFlags: 0
@@ -573,9 +573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2358b9d2ab921144af236f52ae4e5ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070, type: 3}
-  - {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3, type: 3}
+  objects: []
   enemies:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
@@ -583,6 +581,8 @@ MonoBehaviour:
   - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
+  maxRangeOfTime: 7
+  minRangeOfTime: 0
 --- !u!1 &3299358693286311847
 GameObject:
   m_ObjectHideFlags: 0
@@ -626,9 +626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2358b9d2ab921144af236f52ae4e5ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070, type: 3}
-  - {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3, type: 3}
+  objects: []
   enemies:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
@@ -636,6 +634,8 @@ MonoBehaviour:
   - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
+  maxRangeOfTime: 7
+  minRangeOfTime: 0
 --- !u!1 &3299358693301393561
 GameObject:
   m_ObjectHideFlags: 0
@@ -679,9 +679,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2358b9d2ab921144af236f52ae4e5ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070, type: 3}
-  - {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3, type: 3}
+  objects: []
   enemies:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
@@ -689,6 +687,8 @@ MonoBehaviour:
   - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
+  maxRangeOfTime: 7
+  minRangeOfTime: 0
 --- !u!1 &3299358693358981756
 GameObject:
   m_ObjectHideFlags: 0
@@ -732,9 +732,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2358b9d2ab921144af236f52ae4e5ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070, type: 3}
-  - {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3, type: 3}
+  objects: []
   enemies:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
@@ -742,6 +740,8 @@ MonoBehaviour:
   - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
+  maxRangeOfTime: 7
+  minRangeOfTime: 0
 --- !u!1 &3299358693388775710
 GameObject:
   m_ObjectHideFlags: 0
@@ -785,9 +785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2358b9d2ab921144af236f52ae4e5ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070, type: 3}
-  - {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3, type: 3}
+  objects: []
   enemies:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
@@ -795,6 +793,8 @@ MonoBehaviour:
   - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
+  maxRangeOfTime: 7
+  minRangeOfTime: 0
 --- !u!1 &3299358693507639382
 GameObject:
   m_ObjectHideFlags: 0
@@ -891,9 +891,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2358b9d2ab921144af236f52ae4e5ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070, type: 3}
-  - {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3, type: 3}
+  objects: []
   enemies:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
@@ -901,6 +899,8 @@ MonoBehaviour:
   - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
+  maxRangeOfTime: 7
+  minRangeOfTime: 0
 --- !u!1 &3299358693635932228
 GameObject:
   m_ObjectHideFlags: 0
@@ -944,9 +944,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2358b9d2ab921144af236f52ae4e5ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070, type: 3}
-  - {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3, type: 3}
+  objects: []
   enemies:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
@@ -954,6 +952,8 @@ MonoBehaviour:
   - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
+  maxRangeOfTime: 7
+  minRangeOfTime: 0
 --- !u!1 &3299358693954989304
 GameObject:
   m_ObjectHideFlags: 0
@@ -997,9 +997,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2358b9d2ab921144af236f52ae4e5ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070, type: 3}
-  - {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3, type: 3}
+  objects: []
   enemies:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
@@ -1007,6 +1005,8 @@ MonoBehaviour:
   - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
+  maxRangeOfTime: 7
+  minRangeOfTime: 0
 --- !u!1 &3299358694004945015
 GameObject:
   m_ObjectHideFlags: 0
@@ -1050,9 +1050,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2358b9d2ab921144af236f52ae4e5ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070, type: 3}
-  - {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3, type: 3}
+  objects: []
   enemies:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
@@ -1060,6 +1058,8 @@ MonoBehaviour:
   - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
+  maxRangeOfTime: 7
+  minRangeOfTime: 0
 --- !u!1 &3299358694105664094
 GameObject:
   m_ObjectHideFlags: 0
@@ -1103,9 +1103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2358b9d2ab921144af236f52ae4e5ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070, type: 3}
-  - {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3, type: 3}
+  objects: []
   enemies:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
@@ -1113,6 +1111,8 @@ MonoBehaviour:
   - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
+  maxRangeOfTime: 7
+  minRangeOfTime: 0
 --- !u!1 &3299358694310406874
 GameObject:
   m_ObjectHideFlags: 0
@@ -1156,9 +1156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2358b9d2ab921144af236f52ae4e5ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070, type: 3}
-  - {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3, type: 3}
+  objects: []
   enemies:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
@@ -1166,6 +1164,8 @@ MonoBehaviour:
   - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
+  maxRangeOfTime: 7
+  minRangeOfTime: 0
 --- !u!1 &3299358694315909349
 GameObject:
   m_ObjectHideFlags: 0
@@ -1209,9 +1209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2358b9d2ab921144af236f52ae4e5ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070, type: 3}
-  - {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3, type: 3}
+  objects: []
   enemies:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
@@ -1219,6 +1217,8 @@ MonoBehaviour:
   - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
+  maxRangeOfTime: 7
+  minRangeOfTime: 0
 --- !u!1 &3299358694351517337
 GameObject:
   m_ObjectHideFlags: 0
@@ -1262,9 +1262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2358b9d2ab921144af236f52ae4e5ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070, type: 3}
-  - {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3, type: 3}
+  objects: []
   enemies:
   - character: 0
     enemyPrefab: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
@@ -1272,3 +1270,5 @@ MonoBehaviour:
   - character: 1
     enemyPrefab: {fileID: 9174919064440966425, guid: 43c534c9e68ab574c903721445f818d3,
       type: 3}
+  maxRangeOfTime: 7
+  minRangeOfTime: 0

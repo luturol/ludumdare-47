@@ -7,26 +7,59 @@ public class LevelGeneration : MonoBehaviour
 {
     public GameObject[] objects;
     public List<Enemies> enemies;
+    public float maxRangeOfTime = 7f;
+
+    public float minRangeOfTime = 1f;
+    private float spawnIn;
+    private float timeWaitedToSpawn;
+    private bool spawned = false;
+    private int random = 0;
     // Start is called before the first frame update
     void Start()
     {
-        int rand = 0;
         if (enemies.Count == 0)
         {
-            rand = Random.Range(0, objects.Length);
-            InstantiateObject(objects[rand]);
+            random = Random.Range(0, objects.Length);
+            InstantiateObject(objects[random]);
         }
         else
         {
-            var EnemiesWithoutPlayer = enemies.Where(e => e.character != SceneLoader.currentCharacter).ToList();
-            rand = Random.Range(0, EnemiesWithoutPlayer.Count);
-            var enemy = EnemiesWithoutPlayer[rand];
-            var prefab = Instantiate(enemy.enemyPrefab, transform.position, Quaternion.identity);
-            prefab.GetComponent<Enemy>().SetCharacter(enemy.character);
+            spawnIn = Random.Range(minRangeOfTime, maxRangeOfTime);
+            timeWaitedToSpawn = spawnIn;
         }
 
     }
 
+    /// <summary>
+    /// Update is called every frame, if the MonoBehaviour is enabled.
+    /// </summary>
+    void Update()
+    {
+        if (enemies.Count > 0 && !spawned)
+        {
+            if (timeWaitedToSpawn <= 0)
+            {
+                InstantiateEnemy();
+                spawned = true;
+            }
+            else
+            {
+                timeWaitedToSpawn -= Time.deltaTime;
+            }
+        }
+    }
+
+    private void InstantiateEnemy()
+    {
+        Debug.Log("Enemies count " + enemies.Count);
+        var EnemiesWithoutPlayer = enemies.Where(e => e.character != SceneLoader.currentCharacter).ToList();
+        random = Random.Range(0, EnemiesWithoutPlayer.Count);
+        Debug.Log(random);
+        Debug.Log("Enemies count " + EnemiesWithoutPlayer.Count);
+        var enemy = EnemiesWithoutPlayer[random];
+        var prefab = Instantiate(enemy.enemyPrefab, transform.position, Quaternion.identity);
+        prefab.GetComponent<Enemy>().SetCharacter(enemy.character);
+    }
     private void InstantiateObject(GameObject newObject)
     {
         Instantiate(newObject, transform.position, Quaternion.identity);
