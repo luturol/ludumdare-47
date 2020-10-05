@@ -26,6 +26,7 @@ public class LevelGeneration : MonoBehaviour
         {
             spawnIn = Random.Range(minRangeOfTime, maxRangeOfTime);
             timeWaitedToSpawn = spawnIn;
+            FindObjectOfType<Door>().AddEnemy();
         }
 
     }

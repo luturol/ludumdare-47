@@ -46,6 +46,7 @@ public class Enemy : MonoBehaviour
         life -= attackDamage;
         if (life <= 0)
         {
+            FindObjectOfType<Door>().SubtractEnemy();
             Destroy(gameObject);
         }
     }
