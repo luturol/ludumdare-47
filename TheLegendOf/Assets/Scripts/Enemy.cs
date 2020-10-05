@@ -5,19 +5,44 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] int life = 2;
+    public float startTimeBetweenAttacks;
 
-    private Rigidbody2D rigidbody2D;
+    public Projectile enemyAttack;
+
+    private float timeBetweenAttacks;
 
     // Start is called before the first frame update
     void Start()
     {
-        rigidbody2D = GetComponent<Rigidbody2D>();
+        timeBetweenAttacks = startTimeBetweenAttacks;
     }
-    
+
+    /// <summary>
+    /// Update is called every frame, if the MonoBehaviour is enabled.
+    /// </summary>
+    void Update()
+    {
+        if (timeBetweenAttacks <= 0)
+        {
+            var player = GameObject.FindGameObjectWithTag("Player");
+            if (player != null)
+            {                
+                var projectile = Instantiate(enemyAttack, transform.position, Quaternion.identity);                
+                projectile.SetEnemyTag("Player");
+            }
+
+            timeBetweenAttacks = startTimeBetweenAttacks;
+        }
+        else
+        {
+            timeBetweenAttacks -= Time.deltaTime;
+        }
+    }
+
     public void LoseLife(int attackDamage)
     {
         life -= attackDamage;
-        if(life <= 0)
+        if (life <= 0)
         {
             Destroy(gameObject);
         }

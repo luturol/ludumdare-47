@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
 {
     [SerializeField] float movementSpeed = 5f;
     [SerializeField] GameObject body;
+    [SerializeField] float life = 2f; 
     
     private Vector2 movement;
     private Rigidbody2D rigidbody2D;
@@ -38,5 +39,14 @@ public class Player : MonoBehaviour
     void FixedUpdate()
     {
         rigidbody2D.MovePosition(rigidbody2D.position + movement * movementSpeed * Time.fixedDeltaTime);
+    }
+
+    public void LoseLife(int attackDamage)
+    {
+        life -= attackDamage;
+        if (life <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }

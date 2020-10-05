@@ -12,25 +12,39 @@ public class Projectile : MonoBehaviour
     // Start is called before the first frame update
 
     private string enemyTag = string.Empty;
+    private Transform player;
+    private Vector2 target;
+    private bool rotate = false;
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        target = new Vector2(player.position.x, player.position.y);
         DestroyProjectile();
     }
 
     // Update is called once per frame
     void Update()
     {
-        // RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, Vector2.right, distance);
-        // if (hitInfo.collider != null)
-        // {
-        //     if (hitInfo.collider.CompareTag(enemyTag))
-        //     {
-        //         Debug.Log("Enemy has taken damage");
-        //         hitInfo.collider.gameObject.GetComponent<Enemy>().LoseLife(attackDamage);
-        //         Destroy(gameObject);
-        //     }
-        // }
-        transform.Translate(Vector2.right * speed * Time.deltaTime);
+        if (enemyTag == "Enemy")
+        {
+            transform.Translate(Vector2.right * speed * Time.deltaTime);
+        }
+        else if (enemyTag == "Player")
+        {
+            if (!rotate)
+            {
+                Vector3 lookDirection = player.transform.position - transform.position;
+                Debug.Log(lookDirection);
+                float angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg;
+                transform.rotation = Quaternion.Euler(0f, 0f, angle);
+                rotate = true;
+            }
+
+            transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
+
+            if (transform.position.x == target.x && transform.position.y == target.y)
+                Destroy(gameObject);
+        }
     }
 
     private void DestroyProjectile()
@@ -50,9 +64,14 @@ public class Projectile : MonoBehaviour
     /// <param name="other">The other Collider2D involved in this collision.</param>
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Enemy")
+        if (other.gameObject.tag == enemyTag && enemyTag == "Enemy")
         {
             other.gameObject.GetComponent<Enemy>().LoseLife(attackDamage);
+            Destroy(gameObject);
+        }
+        else if (other.gameObject.tag == enemyTag && enemyTag == "Player")
+        {
+            other.gameObject.GetComponent<Player>().LoseLife(attackDamage);
             Destroy(gameObject);
         }
     }

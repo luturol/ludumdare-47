@@ -10,12 +10,12 @@ PrefabInstance:
     - target: {fileID: 5135465573222126016, guid: b3337f8dccd6786499edbb53e1b8d070,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.05
+      value: -7.1908927
       objectReference: {fileID: 0}
     - target: {fileID: 5135465573222126016, guid: b3337f8dccd6786499edbb53e1b8d070,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -15.51
+      value: -18.144878
       objectReference: {fileID: 0}
     - target: {fileID: 5135465573222126016, guid: b3337f8dccd6786499edbb53e1b8d070,
         type: 3}
@@ -67,6 +67,16 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5135465573222126019, guid: b3337f8dccd6786499edbb53e1b8d070,
+        type: 3}
+      propertyPath: stoppingDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5135465573222126019, guid: b3337f8dccd6786499edbb53e1b8d070,
+        type: 3}
+      propertyPath: retreatDistance
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
         type: 3}
       propertyPath: m_Name
@@ -77,11 +87,27 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 5135465573222126023, guid: b3337f8dccd6786499edbb53e1b8d070,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5773038047374823875, guid: b3337f8dccd6786499edbb53e1b8d070,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 6871005769876319402, guid: 62d2ec381a7faf143a7f7250d21fdf9e,
+        type: 3}
+    - target: {fileID: 7258909208502330898, guid: b3337f8dccd6786499edbb53e1b8d070,
+        type: 3}
+      propertyPath: startTimeBetweenAttacks
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7258909208502330898, guid: b3337f8dccd6786499edbb53e1b8d070,
+        type: 3}
+      propertyPath: enemyAttack
+      value: 
+      objectReference: {fileID: 8504351813800934838, guid: 73b1347e91240da45aa4491139c8ccc2,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3337f8dccd6786499edbb53e1b8d070, type: 3}
