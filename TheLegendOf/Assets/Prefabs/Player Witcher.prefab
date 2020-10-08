@@ -253,7 +253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c93a3cf4a64a4814ba9bab22c42931ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackPrefab: {fileID: 1068180549219780794, guid: 73b1347e91240da45aa4491139c8ccc2,
+  attackPrefab: {fileID: 3555052284837283037, guid: 541c7628609b12d4289412b064399c27,
     type: 3}
   attackPoint: {fileID: 5689475974206294960}
   couldown: 3

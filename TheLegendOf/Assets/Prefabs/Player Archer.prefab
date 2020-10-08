@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c93a3cf4a64a4814ba9bab22c42931ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackPrefab: {fileID: 6623100837188576707, guid: 8b5c8930d2024194ca66096f38421a07,
+  attackPrefab: {fileID: 303480600932800528, guid: 4c0abeb4c1ac8a74da3ba560b1899915,
     type: 3}
   attackPoint: {fileID: 6973237795250087057}
   couldown: 1
