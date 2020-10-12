@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     [SerializeField] float movementSpeed = 5f;
     [SerializeField] GameObject body;
     [SerializeField] float life = 2f; 
-    
+
     private Vector2 movement;
     private Rigidbody2D rigidbody2D;
     private SpriteRenderer spriteRenderer;
@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
         spriteRenderer = body.GetComponent<SpriteRenderer>();
-        Camera.main.GetComponent<CameraFollow>().SetFollowPlayer();
+        Camera.main.GetComponent<CameraFollow>().SetFollowPlayer();        
     }
 
     void Update()

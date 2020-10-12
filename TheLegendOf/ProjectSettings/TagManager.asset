@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - UI
   layers:
   - Default
   - TransparentFX
@@ -56,4 +57,7 @@ TagManager:
     locked: 0
   - name: wallsUp
     uniqueID: 2090554449
+    locked: 0
+  - name: UI
+    uniqueID: 3686115453
     locked: 0

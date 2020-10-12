@@ -127,6 +127,8 @@ MonoBehaviour:
   movementSpeed: 5
   body: {fileID: 5689475975459372182}
   life: 2
+  ballonMessage: {fileID: 3822024482114930834, guid: 55caf15a3dc97e0458688fb962f65b14,
+    type: 3}
 --- !u!1 &5689475975459372182
 GameObject:
   m_ObjectHideFlags: 0

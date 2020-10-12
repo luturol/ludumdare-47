@@ -257,3 +257,5 @@ MonoBehaviour:
   movementSpeed: 5
   body: {fileID: 6973237794498314372}
   life: 2
+  ballonMessage: {fileID: 3822024482114930834, guid: 55caf15a3dc97e0458688fb962f65b14,
+    type: 3}
