@@ -25,8 +25,7 @@ public class LevelGeneration : MonoBehaviour
         else
         {
             spawnIn = Random.Range(minRangeOfTime, maxRangeOfTime);
-            timeWaitedToSpawn = spawnIn;
-            FindObjectOfType<Door>().AddEnemy();
+            timeWaitedToSpawn = spawnIn;            
         }
 
     }
@@ -39,9 +38,11 @@ public class LevelGeneration : MonoBehaviour
         if (enemies.Count > 0 && !spawned)
         {
             if (timeWaitedToSpawn <= 0)
-            {
+            {       
+                Debug.Log(spawnIn);
                 InstantiateEnemy();
                 spawned = true;
+                FindObjectOfType<Door>().AddEnemy();
             }
             else
             {
@@ -52,11 +53,8 @@ public class LevelGeneration : MonoBehaviour
 
     private void InstantiateEnemy()
     {
-        Debug.Log("Enemies count " + enemies.Count);
         var EnemiesWithoutPlayer = enemies.Where(e => e.character != SceneLoader.currentCharacter).ToList();
-        random = Random.Range(0, EnemiesWithoutPlayer.Count);
-        Debug.Log(random);
-        Debug.Log("Enemies count " + EnemiesWithoutPlayer.Count);
+        random = Random.Range(0, EnemiesWithoutPlayer.Count);     
         var enemy = EnemiesWithoutPlayer[random];
         var prefab = Instantiate(enemy.enemyPrefab, transform.position, Quaternion.identity);
         prefab.GetComponent<Enemy>().SetCharacter(enemy.character);

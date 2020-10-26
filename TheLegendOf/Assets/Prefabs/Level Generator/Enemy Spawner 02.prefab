@@ -54,8 +54,8 @@ MonoBehaviour:
   - character: 2
     enemyPrefab: {fileID: 3546253423508255454, guid: 9c5e21480c1c62e449f064be2ff01549,
       type: 3}
-  maxRangeOfTime: 7
-  minRangeOfTime: 0
+  maxRangeOfTime: 25
+  minRangeOfTime: 15
 --- !u!1 &339359965239656007
 GameObject:
   m_ObjectHideFlags: 0
@@ -110,8 +110,8 @@ MonoBehaviour:
   - character: 2
     enemyPrefab: {fileID: 3546253423508255454, guid: 9c5e21480c1c62e449f064be2ff01549,
       type: 3}
-  maxRangeOfTime: 7
-  minRangeOfTime: 0
+  maxRangeOfTime: 25
+  minRangeOfTime: 15
 --- !u!1 &441644721444912102
 GameObject:
   m_ObjectHideFlags: 0
@@ -166,8 +166,8 @@ MonoBehaviour:
   - character: 2
     enemyPrefab: {fileID: 3546253423508255454, guid: 9c5e21480c1c62e449f064be2ff01549,
       type: 3}
-  maxRangeOfTime: 7
-  minRangeOfTime: 0
+  maxRangeOfTime: 25
+  minRangeOfTime: 15
 --- !u!1 &972831393842879762
 GameObject:
   m_ObjectHideFlags: 0
@@ -222,8 +222,8 @@ MonoBehaviour:
   - character: 2
     enemyPrefab: {fileID: 3546253423508255454, guid: 9c5e21480c1c62e449f064be2ff01549,
       type: 3}
-  maxRangeOfTime: 7
-  minRangeOfTime: 0
+  maxRangeOfTime: 25
+  minRangeOfTime: 15
 --- !u!1 &2189610824733613045
 GameObject:
   m_ObjectHideFlags: 0
@@ -278,8 +278,8 @@ MonoBehaviour:
   - character: 2
     enemyPrefab: {fileID: 3546253423508255454, guid: 9c5e21480c1c62e449f064be2ff01549,
       type: 3}
-  maxRangeOfTime: 7
-  minRangeOfTime: 0
+  maxRangeOfTime: 25
+  minRangeOfTime: 15
 --- !u!1 &3814077292821620276
 GameObject:
   m_ObjectHideFlags: 0
@@ -334,8 +334,8 @@ MonoBehaviour:
   - character: 2
     enemyPrefab: {fileID: 3546253423508255454, guid: 9c5e21480c1c62e449f064be2ff01549,
       type: 3}
-  maxRangeOfTime: 7
-  minRangeOfTime: 0
+  maxRangeOfTime: 25
+  minRangeOfTime: 15
 --- !u!1 &5626060571367106077
 GameObject:
   m_ObjectHideFlags: 0
@@ -390,8 +390,8 @@ MonoBehaviour:
   - character: 2
     enemyPrefab: {fileID: 3546253423508255454, guid: 9c5e21480c1c62e449f064be2ff01549,
       type: 3}
-  maxRangeOfTime: 7
-  minRangeOfTime: 0
+  maxRangeOfTime: 25
+  minRangeOfTime: 15
 --- !u!1 &6081518089466772292
 GameObject:
   m_ObjectHideFlags: 0
@@ -446,8 +446,8 @@ MonoBehaviour:
   - character: 2
     enemyPrefab: {fileID: 3546253423508255454, guid: 9c5e21480c1c62e449f064be2ff01549,
       type: 3}
-  maxRangeOfTime: 7
-  minRangeOfTime: 0
+  maxRangeOfTime: 25
+  minRangeOfTime: 15
 --- !u!1 &8573013188657242760
 GameObject:
   m_ObjectHideFlags: 0
@@ -502,8 +502,8 @@ MonoBehaviour:
   - character: 2
     enemyPrefab: {fileID: 3546253423508255454, guid: 9c5e21480c1c62e449f064be2ff01549,
       type: 3}
-  maxRangeOfTime: 7
-  minRangeOfTime: 0
+  maxRangeOfTime: 25
+  minRangeOfTime: 15
 --- !u!1 &8983127730695824300
 GameObject:
   m_ObjectHideFlags: 0
@@ -558,8 +558,8 @@ MonoBehaviour:
   - character: 2
     enemyPrefab: {fileID: 3546253423508255454, guid: 9c5e21480c1c62e449f064be2ff01549,
       type: 3}
-  maxRangeOfTime: 7
-  minRangeOfTime: 0
+  maxRangeOfTime: 25
+  minRangeOfTime: 15
 --- !u!1001 &519187958747762938
 PrefabInstance:
   m_ObjectHideFlags: 0
