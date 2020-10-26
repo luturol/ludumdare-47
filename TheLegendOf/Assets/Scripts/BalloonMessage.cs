@@ -20,7 +20,7 @@ public class BalloonMessage : MonoBehaviour
     void Start()
     {                
         waitedTime = timeBeforeDelete;
-        text.transform.position = new Vector3(transform.position.x, transform.position.y, 0f);
+        text.transform.position = transform.position;
     }
 
     /// <summary>

@@ -93,7 +93,7 @@ MonoBehaviour:
   attackPrefab: {fileID: 7811285714423803960, guid: d07f992b65870e043a98d0e48c87ecaf,
     type: 3}
   attackPoint: {fileID: 1565495007572838729}
-  couldown: 3
+  couldown: 1.2
 --- !u!212 &4014178442293977785
 SpriteRenderer:
   m_ObjectHideFlags: 0
