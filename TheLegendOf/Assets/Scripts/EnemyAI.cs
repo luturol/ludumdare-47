@@ -6,11 +6,8 @@ using Pathfinding;
 
 public class EnemyAI : MonoBehaviour
 {
-
     [SerializeField] Transform target;
-
     [SerializeField] float speed;
-
     [SerializeField] float nextWaypointDistance;
     [SerializeField] float stoppingDistance;
     [SerializeField] float retreatDistance;

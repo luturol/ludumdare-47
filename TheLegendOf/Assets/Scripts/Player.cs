@@ -8,12 +8,13 @@ public class Player : MonoBehaviour
     [SerializeField] float movementSpeed = 5f;
     [SerializeField] GameObject body;
     [SerializeField] float life = 2f; 
-    
+    [SerializeField] GameObject blood;
+
     private Vector2 movement;
     private Rigidbody2D rigidbody2D;
     private SpriteRenderer spriteRenderer;
     private Vector2 mouse;
-
+    
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
@@ -45,6 +46,8 @@ public class Player : MonoBehaviour
     public void LoseLife(int attackDamage, Characters attackOwner)
     {
         life -= attackDamage;
+        var bloodInstance = Instantiate(blood);
+        Destroy(bloodInstance, 3);
         if (life <= 0)
         {
             SceneLoader.currentCharacter = attackOwner;

@@ -283,6 +283,7 @@ MonoBehaviour:
   movementSpeed: 10
   body: {fileID: 4673449497462572444}
   life: 2
+  blood: {fileID: 3796132997176389866, guid: a4088c29f50c54a47b22022ba9a847f5, type: 3}
 --- !u!61 &305118472
 BoxCollider2D:
   m_ObjectHideFlags: 0
