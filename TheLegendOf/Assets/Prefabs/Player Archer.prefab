@@ -129,7 +129,7 @@ MonoBehaviour:
   attackPrefab: {fileID: 303480600932800528, guid: 4c0abeb4c1ac8a74da3ba560b1899915,
     type: 3}
   attackPoint: {fileID: 6973237795250087057}
-  couldown: 1
+  couldown: 1.2
 --- !u!1 &6973237795250087057
 GameObject:
   m_ObjectHideFlags: 0

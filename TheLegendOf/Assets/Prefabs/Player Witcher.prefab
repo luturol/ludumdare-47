@@ -256,4 +256,4 @@ MonoBehaviour:
   attackPrefab: {fileID: 3555052284837283037, guid: 541c7628609b12d4289412b064399c27,
     type: 3}
   attackPoint: {fileID: 5689475974206294960}
-  couldown: 3
+  couldown: 1.2

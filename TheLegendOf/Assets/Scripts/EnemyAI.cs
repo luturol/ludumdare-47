@@ -24,6 +24,7 @@ public class EnemyAI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log(GameObject.FindGameObjectWithTag("Player"));
         target = GameObject.FindGameObjectWithTag("Player").transform;
         seek = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
